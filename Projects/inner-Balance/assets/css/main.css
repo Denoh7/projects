@@ -1,0 +1,197 @@
+
+    .whatsapp-btn {
+        position: fixed; /* Fix position */
+        bottom: 20px; /* Distance from bottom */
+        right: 20px; /* Distance from right */
+        width: 60px;
+        height: 60px;
+        background-color: #25D366; /* WhatsApp Green */
+        color: white;
+        font-size: 30px; /* Icon size */
+        border-radius: 50%; /* Circular button */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        text-decoration: none;
+        transition: background 0.3s ease-in-out;
+    }
+
+    .whatsapp-btn:hover {
+        background-color: #1ebe5d; /* Slightly darker green on hover */
+    }
+
+
+
+
+
+
+.main_services {
+  width: 90vw;
+  overflow-x: auto; /* Changed from scroll to auto */
+  white-space: nowrap;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-start;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-disabler {
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.0001);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+article {
+  min-width: 400px;
+  height: 450px;
+  padding: 1rem;
+}
+
+article .wrapper {
+  padding: 1rem;
+  background-color: #fff;
+  height: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+article .img {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px 25px 0 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* Image Backgrounds */
+.wrapper .img-1 { background-image: url(../images/telehealth.png); }
+.wrapper .img-2 { background-image: url(../images/cognitive.png); }
+.wrapper .img-3 { background-image: url(../images/depression.png); }
+.wrapper .img-4 { background-image: url(../images/substance.png); }
+.wrapper .img-5 { background-image: url(../images/couple.png); }
+.wrapper .img-6 { background-image: url(../images/mindful.png); }
+.wrapper .img-7 { background-image: url(../images/Grief.png); }
+.wrapper .img-8 { background-image: url(../images/psy.png); }
+
+article .content > div {
+  height: 2rem;
+  margin: 2rem auto 0 auto;
+  width: 85%;
+  border-radius: 5px;
+}
+
+article .content > div:last-child {
+  height: 5rem;
+  background: none;
+}
+
+/* University Details */
+.content .uni-title {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .uni-title h1 {
+  text-align: start;
+  color: #1d1d1d;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  text-wrap: wrap;
+}
+
+.content .uni-details p {
+  padding-bottom: 20px;
+  color: #1d1d1d;
+  font-size: 0.8rem;
+  font-family: "Raleway", sans-serif;
+  text-wrap: wrap;
+  text-align: center; /* Improved alignment */
+}
+
+.content .uni-details a {
+  color: #015FC9;
+}
+
+/* University Button */
+.uni-btn {
+  margin-top: 5px; /* Fixed invalid value */
+  border: 1px solid #015FC9;
+  background: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.uni-btn:hover {
+  background-color: #015FC9;
+  color: #fff;
+}
+
+
+/*Gallery */
+.gallery-filter {
+  width: 100%;
+  text-align: center; }
+  .gallery-filter .btn {
+    background-color: #FFF; }
+
+.gallery {
+  padding: 80px 50px;
+  background-color: #FAFAFA; }
+  @media screen and (max-width: 940px) {
+    .gallery {
+      padding: 50px 10px; } }
+
+.gallery-title {
+  font-size: 36px;
+  color: #00ab9f;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px; }
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #00ab9f; }
+
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #00ab9f;
+  border-radius: 5px;
+  text-align: center;
+  color: #00ab9f;
+  margin-bottom: 30px; }
+
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #00ab9f;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #00ab9f; }
+
+.btn-default:active .filter-button:active {
+  background-color: #00ab9f;
+  color: white; }
+
+.port-image {
+  width: 100%; }
+
+.gallery_product {
+  margin-bottom: 30px; }
